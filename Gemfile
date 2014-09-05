@@ -35,11 +35,19 @@ gem 'sprockets', '2.11.0'
 
 gem  'execjs'
 
+
+gem 'less-rails'
+
+
 # gem  'activesupport', '4.0.8'
 
 group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
+  gem 'bootstrap-sass', '3.2.0.0'
+  
+  
+  
 end
 
  group :doc do
